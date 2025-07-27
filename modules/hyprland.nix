@@ -50,6 +50,11 @@ in
         source=~/.config/hypr/custom/general.conf
         source=~/.config/hypr/custom/rules.conf
         source=~/.config/hypr/custom/keybinds.conf
+
+        input {
+            kb_layout = us,ru
+            kb_options = grp:alt_shift_toggle
+        }
       '';
 
     };
